@@ -1,0 +1,44 @@
+/* Estilos padrões para todas as telas */ 
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dosis:wght@500&family=Montserrat+Alternates:wght@100;300&display=swap');
+
+body{
+    
+    font-family: 'Dosis', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+
+}
+
+.banner{
+    height: 70vh;
+    background: url('../img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+/* Estilos para telas com resulução ate 576px */
+@media (max-width: 575.98px) {
+
+}
+
+/* Estilos para telas com resolução ate 768px */
+@media (max-width: 767.98px) {
+
+}
+
+/* Estilos para telas com resolução até 996px */
+@media (max-width: 991.98px) { 
+
+}
+
+/* Estilos para telas com resoução ate 1.200px */
+@media (max-width: 1199.98px) { 
+
+}
+
+/* Estilos para telas com resolução até 1400px */
+@media (max-width: 1399.98px) { 
+
+}
