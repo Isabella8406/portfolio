@@ -11,11 +11,15 @@ body{
 
 .banner{
     height: 70vh;
-    background: url('../img/background.jpg');
+    background: url('../img/banner.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
+}
+
+.isa{
+    border-radius: 50%;
 }
 
 /* Estilos para telas com resulução ate 576px */
@@ -41,4 +45,73 @@ body{
 /* Estilos para telas com resolução até 1400px */
 @media (max-width: 1399.98px) { 
 
+}
+
+.navbar-brand{
+   
+        display: inline-block;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(to bottom, #1abc9c 50%,#3498db 50%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    
+}
+
+h4 {
+    color: black;
+}
+
+.img-fluid {
+    
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container p {
+    font-size: 3rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+  }
+  .container p span.typed-text {
+    font-weight: normal;
+    color: #dd7732;
+  }
+  .container p span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+  .container p span.cursor.typing {
+    animation: none;
+  }
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
+
+.alert-dark{
+    color: pink;
+}
+
+h3 {
+    color: black;
 }
